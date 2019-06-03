@@ -191,4 +191,5 @@ const bool cls_Hex::operator==(cls_Hex& p_Hex)
 
 cls_Hex::~cls_Hex()
 {
+	delete m_Array;
 }

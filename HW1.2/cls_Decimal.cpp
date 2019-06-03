@@ -175,4 +175,5 @@ const bool cls_Decimal::operator==(cls_Decimal& p_Dec)
 
 cls_Decimal::~cls_Decimal()
 {
+	delete m_Array;
 }
